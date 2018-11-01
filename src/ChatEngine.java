@@ -9,7 +9,7 @@ public class ChatEngine {
         ChatRoom chatRoom2 = new ChatRoom(chatServer, "Room 2");
         ChatRoom chatRoom3 = new ChatRoom(chatServer, "Room 4");
 
-        String[] msgs = {"Message 1","Hello World","I'm new here","I live this","Cool stuff"};
+        String[] msgs = {"Message 1, no room will pick this","Hello World","I'm new here","I love this will also not be posted","Cool stuff"};
 
         for (int i=0; i<5; i++){
             ChatMessage cm = new ChatMessage();
